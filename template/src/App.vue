@@ -28,15 +28,20 @@ export default {
 </script>
 
 <style>
+@import '../assets/colors.css';
+@import '../assets/sakura.css';
+@import url('https://fonts.googleapis.com/css?family=Average|Average+Sans');
+html{
+  --ff-main: 'Average', serif;
+  --ff-alt: 'Average Sans', sans-serif;
+}
 body {
   margin: 0;
 }
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
 }
 
 main {
@@ -48,8 +53,6 @@ header {
   margin: 0;
   height: 56px;
   padding: 0 16px 0 24px;
-  background-color: #35495E;
-  color: #ffffff;
 }
 
 header span {

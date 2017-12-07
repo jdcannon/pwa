@@ -1,0 +1,19 @@
+/*
+ * Color Variables:
+ * ff-main::Body font
+ * ff-alt::Heading font
+ * color-bg::Background Color
+ * color-text::Text Color
+ * color-bloom::Primary Brand Color
+ * color-fade::Secondary Brand Color
+ * color-ow::Off-white
+ */
+html{
+  --ff-main: serif;
+  --ff-alt: sans-serif;
+  --color-bg: #F9F9F9;
+  --color-text: #4A4A4A;
+  --color-bloom: #338618;
+  --color-fade: #5E5E5E;
+  --color-ow: #F1F1F1;
+}
