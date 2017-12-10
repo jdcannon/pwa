@@ -3,7 +3,7 @@
     <header>
       <span>Vue.js PWA</span>
     </header>
-    <main>
+    <main class="content">
       <img src="./assets/logo.png" alt="Vue.js PWA">
       {{#router}}
       <router-view></router-view>
@@ -28,15 +28,15 @@ export default {
 </script>
 
 <style>
-@import '../assets/colors.css';
-@import '../assets/sakura.css';
+@import './assets/colors.css';
+@import './assets/sakura.css';
 @import url('https://fonts.googleapis.com/css?family=Average|Average+Sans');
 html{
   --ff-main: 'Average', serif;
   --ff-alt: 'Average Sans', sans-serif;
+  --ff-sans: 'Average Sans', sans-serif;
 }
 body {
-  margin: 0;
 }
 
 #app {
